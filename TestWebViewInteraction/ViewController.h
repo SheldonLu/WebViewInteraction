@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIWebViewDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate>
+{
+    UIWebView *myWebView;
+    UIImagePickerController *pickerController;
+}
+@property (nonatomic,retain) IBOutlet UIWebView *myWebView;
+@property (nonatomic,retain)IBOutlet UIImagePickerController *pickerController;
 
 @end

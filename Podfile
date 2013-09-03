@@ -1,0 +1,5 @@
+platform :ios,'5.0'
+pod 'ASIHTTPRequest'
+#pod 'GPUImage',:git=>'http://github.com/BradLarson/GPUImage.git'
+#pod 'DLCImagePickerController'
+pod 'MMProgressHUD',:git=>'http://github.com/mutualmobile/MMProgressHUD.git'
